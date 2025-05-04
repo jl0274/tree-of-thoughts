@@ -24,6 +24,7 @@ def run(args):
 
         # log
         infos = [task.test_output(i, y) for y in ys]
+        # print(f"[DEBUG] args.backend = {args.backend!r}")
         info.update({'idx': i, 'ys': ys, 'infos': infos, 'usage_so_far': gpt_usage(args.backend)})
         logs.append(info)
         with open(file, 'w') as f:
@@ -42,10 +43,10 @@ def run(args):
 
 def parse_args():
     args = argparse.ArgumentParser()
-    args.add_argument('--backend', type=str, choices=['gpt-4', 'gpt-3.5-turbo', 'gpt-4o'], default='gpt-4')
+    args.add_argument('--backend', type=str, choices=['gpt-4', 'gpt-3.5-turbo', 'gpt-4o', 'gpt-4o-mini'], default='gpt-4')
     args.add_argument('--temperature', type=float, default=0.7)
 
-    args.add_argument('--task', type=str, required=True, choices=['game24', 'text', 'crosswords'])
+    args.add_argument('--task', type=str, required=True, choices=['game24', 'text', 'crosswords', 'chess'])
     args.add_argument('--task_start_index', type=int, default=900)
     args.add_argument('--task_end_index', type=int, default=1000)
 
