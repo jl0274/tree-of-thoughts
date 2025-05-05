@@ -70,7 +70,7 @@ class ChessTask(Task):
     Output Example: 
         e8e1 g1f2 e1f1
     """
-    def __init__(self, file='rt_0_800.csv'):
+    def __init__(self, file='mate2_transformed.csv'):
         """
         file: a csv file (fixed)
         """
@@ -98,6 +98,7 @@ class ChessTask(Task):
     def test_output(self, idx: int, output: str):
         # given an output, take the last line, make it lowercase, 
         # split to array with the LAN moves
+        output = output.replace('*', '')
         moves = output.strip().split('\n')[-1].lower().replace('answer: ', '').split()
         
         solution = self.answers[idx]
@@ -131,7 +132,7 @@ class ChessTask(Task):
         
         # im not sure chatgpt will generate the correct fen given the old fen and a move suggestion
         # so will use computed fen but will keep track of how often chat is correct
-        with open("can_chat_gen_fen.txt", "w") as f:
+        with open("can_chat_gen_fen.txt", "a+") as f:
             should_be = is_legal(x, current_move)
             if current_position == should_be:
                 print("yes", file=f)    
