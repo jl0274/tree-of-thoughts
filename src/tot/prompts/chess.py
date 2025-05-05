@@ -35,7 +35,7 @@ Input: {input}
 
 
 standard_prompt = '''
-Find the mate in 2. Give your answer at the very end, in LAN notation.
+Find the mate in 2. Give your answer in LAN notation, at the very end, after "Answer:" 
 Input: 4r3/1k6/pp3P2/1b5p/3R1p2/P1R2P2/1P4PP/6K1 b - - 0 35
 Answer: e8e1 g1f2 e1f1
 Input: r1bq3r/pp1nbkp1/2p1p2p/8/2BP4/1PN3P1/P3QP1P/3R1RK1 w - - 0 19
@@ -56,7 +56,7 @@ Input: {input}
 
 
 # 5-shot
-cot_prompt = '''Find the mate in 2. Give your answer at the very end, in LAN notation. At each step, you are only allowed to choose one piece to move to a square to obtain a new position.
+cot_prompt = '''Find the mate in 2. Give your answer at the very end, in LAN notation, after "Answer:". Please stick to this formatting. At each step, you are only allowed to choose one piece to move to a square to obtain a new position.
 Input: 4r3/1k6/pp3P2/1b5p/3R1p2/P1R2P2/1P4PP/6K1 b - - 0 35
 Steps:
 The opponent's king is exposed on the back rank, so we deliver a check with the rook: Re1+
@@ -84,7 +84,7 @@ Steps:
 The opponent's king has no legal moves, so we deliver a check with the bishop: Bf2#
 The opponent's only move is to block the check with their pawn: g3
 The bishop takes the opponent's pawn, supported by the rook, and delivers checkmate: Bxg3#
-c5f2 g2g3 f2g3
+Answer: c5f2 g2g3 f2g3
 
 Input: 1rb3k1/q4rP1/4p2p/3p3p/3P1P2/2P5/2QK3P/3R2R1 w - - 0 29
 Steps:
