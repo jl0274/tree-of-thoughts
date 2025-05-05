@@ -1,0 +1,84 @@
+[
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "4 5 6 10",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "Answer: 8 * 8 / 12 = 24\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: 8 * 8 / 12 = 24\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "4 5 6 10",
+                "ys": [
+                    "Answer: 8 * 8 / 12 = 24\n"
+                ],
+                "new_ys": [
+                    "Answer: 8 * 8 / 12 = 24\nAnswer: 8 * 8 / 12 = 24\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: 8 * 8 / 12 = 24\nAnswer: 8 * 8 / 12 = 24\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "4 5 6 10",
+                "ys": [
+                    "Answer: 8 * 8 / 12 = 24\nAnswer: 8 * 8 / 12 = 24\n"
+                ],
+                "new_ys": [
+                    "Answer: 8 * 8 / 12 = 24\nAnswer: 8 * 8 / 12 = 24\nAnswer: 8 * 2 = 24\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: 8 * 8 / 12 = 24\nAnswer: 8 * 8 / 12 = 24\nAnswer: 8 * 2 = 24\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "4 5 6 10",
+                "ys": [
+                    "Answer: 8 * 8 / 12 = 24\nAnswer: 8 * 8 / 12 = 24\nAnswer: 8 * 2 = 24\n"
+                ],
+                "new_ys": [
+                    "Answer: 8 * 8 / 12 = 24\nAnswer: 8 * 8 / 12 = 24\nAnswer: 8 * 2 = 24\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: 8 * 8 / 12 = 24\nAnswer: 8 * 8 / 12 = 24\nAnswer: 8 * 2 = 24\nAnswer: impossible\n"
+                ]
+            }
+        ],
+        "idx": 900,
+        "ys": [
+            "Answer: 8 * 8 / 12 = 24\nAnswer: 8 * 8 / 12 = 24\nAnswer: 8 * 2 = 24\nAnswer: impossible\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 79,
+            "prompt_tokens": 2133,
+            "cost": 0.0033575000000000002
+        }
+    }
+]

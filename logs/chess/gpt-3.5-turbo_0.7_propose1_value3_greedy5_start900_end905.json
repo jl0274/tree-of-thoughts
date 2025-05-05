@@ -1,0 +1,412 @@
+[
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "n1r2rkQ/p2q3p/3P2pP/2p5/1P6/P4R1P/8/5RK1 b - - 1 37",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "Answer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "n1r2rkQ/p2q3p/3P2pP/2p5/1P6/P4R1P/8/5RK1 b - - 1 37",
+                "ys": [
+                    "Answer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "n1r2rkQ/p2q3p/3P2pP/2p5/1P6/P4R1P/8/5RK1 b - - 1 37",
+                "ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "n1r2rkQ/p2q3p/3P2pP/2p5/1P6/P4R1P/8/5RK1 b - - 1 37",
+                "ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ]
+            }
+        ],
+        "idx": 900,
+        "ys": [
+            "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 89,
+            "prompt_tokens": 2937,
+            "cost": 0.0045835
+        }
+    },
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "2R3k1/4rpp1/3p2b1/3P4/4p1P1/P3P2P/1P3Q1K/3q4 b - - 1 36",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "Answer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "2R3k1/4rpp1/3p2b1/3P4/4p1P1/P3P2P/1P3Q1K/3q4 b - - 1 36",
+                "ys": [
+                    "Answer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "2R3k1/4rpp1/3p2b1/3P4/4p1P1/P3P2P/1P3Q1K/3q4 b - - 1 36",
+                "ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "2R3k1/4rpp1/3p2b1/3P4/4p1P1/P3P2P/1P3Q1K/3q4 b - - 1 36",
+                "ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ]
+            }
+        ],
+        "idx": 901,
+        "ys": [
+            "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 132,
+            "prompt_tokens": 5838,
+            "cost": 0.009021000000000001
+        }
+    },
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "6k1/4p2p/3pP1p1/8/8/1P3n1q/5Q1P/4R2K b - - 2 35",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "Answer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "6k1/4p2p/3pP1p1/8/8/1P3n1q/5Q1P/4R2K b - - 2 35",
+                "ys": [
+                    "Answer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "6k1/4p2p/3pP1p1/8/8/1P3n1q/5Q1P/4R2K b - - 2 35",
+                "ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "6k1/4p2p/3pP1p1/8/8/1P3n1q/5Q1P/4R2K b - - 2 35",
+                "ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ]
+            }
+        ],
+        "idx": 902,
+        "ys": [
+            "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 175,
+            "prompt_tokens": 8733,
+            "cost": 0.013449500000000001
+        }
+    },
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "6k1/1R6/3p1r1p/5p2/7q/8/P5P1/2R3K1 b - - 3 36",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "Answer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "6k1/1R6/3p1r1p/5p2/7q/8/P5P1/2R3K1 b - - 3 36",
+                "ys": [
+                    "Answer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "6k1/1R6/3p1r1p/5p2/7q/8/P5P1/2R3K1 b - - 3 36",
+                "ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "6k1/1R6/3p1r1p/5p2/7q/8/P5P1/2R3K1 b - - 3 36",
+                "ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ]
+            }
+        ],
+        "idx": 903,
+        "ys": [
+            "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 218,
+            "prompt_tokens": 11625,
+            "cost": 0.0178735
+        }
+    },
+    {
+        "steps": [
+            {
+                "step": 0,
+                "x": "1R6/5p2/1P2b3/2Bp2p1/3P4/4k2P/R4nPK/1r6 w - - 0 42",
+                "ys": [
+                    ""
+                ],
+                "new_ys": [
+                    "Answer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\n"
+                ]
+            },
+            {
+                "step": 1,
+                "x": "1R6/5p2/1P2b3/2Bp2p1/3P4/4k2P/R4nPK/1r6 w - - 0 42",
+                "ys": [
+                    "Answer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ]
+            },
+            {
+                "step": 2,
+                "x": "1R6/5p2/1P2b3/2Bp2p1/3P4/4k2P/R4nPK/1r6 w - - 0 42",
+                "ys": [
+                    "Answer: impossible\nAnswer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ]
+            },
+            {
+                "step": 3,
+                "x": "1R6/5p2/1P2b3/2Bp2p1/3P4/4k2P/R4nPK/1r6 w - - 0 42",
+                "ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ],
+                "values": [
+                    0.0
+                ],
+                "select_new_ys": [
+                    "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+                ]
+            }
+        ],
+        "idx": 904,
+        "ys": [
+            "Answer: impossible\nAnswer: impossible\nAnswer: impossible\nAnswer: impossible\n"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 261,
+            "prompt_tokens": 14521,
+            "cost": 0.022303500000000004
+        }
+    }
+]
