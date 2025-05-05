@@ -98,6 +98,7 @@ class ChessTask(Task):
     def test_output(self, idx: int, output: str):
         # given an output, take the last line, make it lowercase, 
         # split to array with the LAN moves
+        output = output.replace('*', '')
         moves = output.strip().split('\n')[-1].lower().replace('answer: ', '').split()
         
         solution = self.answers[idx]
