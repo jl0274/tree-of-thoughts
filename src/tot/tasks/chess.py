@@ -70,7 +70,7 @@ class ChessTask(Task):
     Output Example: 
         e8e1 g1f2 e1f1
     """
-    def __init__(self, file='mate2_filtered.csv'):
+    def __init__(self, file='rt_0_800.csv'):
         """
         file: a csv file (fixed)
         """
