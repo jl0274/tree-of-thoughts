@@ -99,7 +99,9 @@ Input: {input}
 # d1d8 f6e8 d8e8
 
 
-propose_prompt = '''Input: 4r3/1k6/pp3P2/1b5p/3R1p2/P1R2P2/1P4PP/6K1 b - - 0 35
+propose_prompt = ''' Propose possible good moves for the given position. Every move on a line, in LAN notation. No extra explanation. Provide the resulting positions in FEN too. Please respect the format.
+
+Input: 4r3/1k6/pp3P2/1b5p/3R1p2/P1R2P2/1P4PP/6K1 b - - 0 35
 Possible next steps:
 e8f8 (position becomes: 5r2/1k6/pp3P2/1b5p/3R1p2/P1R2P2/1P4PP/6K1 w - - 0 35)
 a6a5 (position becomes: 4r3/1k6/1p3P2/pb5p/3R1p2/P1R2P2/1P4PP/6K1 w - - 0 35)
