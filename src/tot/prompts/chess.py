@@ -162,26 +162,26 @@ Answer:
 #6k1/5ppp/5n2/pp6/4b1rP/5N1Q/Pq2r1P1/3R2RK w - - 4 32
 
 
-value_last_step_prompt = '''Find mate in 2 in the position. Given an input and an answer, give a judgement (sure/impossible) if the answer is correct, i.e. the moves are all legal and the sequence ends with a checkmate, meaning the opponent's king is in check and has no legal moves. The last sentence in your output is Verdict: sure or Verdict: impossible.
+value_last_step_prompt = '''Find mate in 2 in the position. Given an input and a solution, give a judgement (sure/impossible) if the solution is correct, i.e. the moves are all legal and the sequence ends with a checkmate, meaning the opponent's king is in check and has no legal moves. The last sentence in your output is answer: sure or answer: impossible.
 Input: 4r3/1k6/pp3P2/1b5p/3R1p2/P1R2P2/1P4PP/6K1 b - - 0 35
-Answer: e8e1 g1f2 e1f1
+Solution: e8e1 g1f2 e1f1
 Judge: Moves are legal and the sequence ends with a checkmate
-Verdict: sure
+Answer: sure
 
 Input: r1bq3r/pp1nbkp1/2p1p2p/8/2BP4/1PN3P1/P3QP1P/3R1RK1 w - - 0 19
-Answer: e2e6 f7f8 e6f7
+Solution: e2e6 f7f8 e6f7
 Judge: Moves are legal and the sequence ends with a checkmate
-Verdict: sure
+Answer: sure
 
 Input: 5r1k/pp4pp/5p2/1BbQp1r1/7K/7P/1PP3P1/3R3R b - - 2 26
-Answer: f5f4 h4g5 h7h6
+Solution: f5f4 h4g5 h7h6
 Judge: The opponent's king still has legal moves
-Verdict: impossible
+Answer: impossible
 
 Input: 5r1k/pp4pp/5p2/1BbQp1r1/7K/7P/1PP3P1/3R3R b - - 2 26
-Answer: h7h6 d5d8 f8f4 
+Solution: h7h6 d5d8 f8f4 
 Judge: f8f4 is an illegal move
-Verdict: impossible
+Answer: impossible
 
 
 Input: {input}
