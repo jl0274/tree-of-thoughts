@@ -185,9 +185,9 @@ Answer: impossible
 
 
 Input: {input}
-Answer: {answer}
+Solution: {answer}
 Judge:
-Verdict:'''
+Answer:'''
 
 # 6k1/5ppp/5n2/pp6/4b1rP/5N1Q/Pq2r1P1/3R2RK w - - 4 32
 # d1d8 f6e8 d8e8

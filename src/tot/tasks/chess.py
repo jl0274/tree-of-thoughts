@@ -26,6 +26,16 @@ def is_legal(fen, move):
         else:
             return False
     except ValueError:
+        try:
+            move = board.parse_san(move)
+            if move in board.legal_moves:
+                board.push(move)
+                #print("Move is legal!")
+                return board.fen()
+            else:
+                return False
+        except ValueError:
+            return False
         # bad LAN
         return False
 
