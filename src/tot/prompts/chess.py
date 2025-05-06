@@ -104,13 +104,24 @@ propose_prompt = ''' Propose possible good moves for the given position. Every m
 Input: 4r3/1k6/pp3P2/1b5p/3R1p2/P1R2P2/1P4PP/6K1 b - - 0 35
 Possible next steps:
 e8f8 (position becomes: 5r2/1k6/pp3P2/1b5p/3R1p2/P1R2P2/1P4PP/6K1 w - - 0 35)
-a6a5 (position becomes: 4r3/1k6/1p3P2/pb5p/3R1p2/P1R2P2/1P4PP/6K1 w - - 0 35)
 b5e2 (position becomes: 4r3/1k6/pp3P2/7p/3R1p2/P1R2P2/1P2b1PP/6K1 w - - 0 35)
-b7a8 (position becomes: k3r3/8/pp3P2/1b5p/3R1p2/P1R2P2/1P4PP/6K1 w - - 0 35)
 h5h4 (position becomes: 4r3/1k6/pp3P2/1b6/3R1p1p/P1R2P2/1P4PP/6K1 w - - 0 35)
-e8e6 (position becomes: 8/1k6/pp2rP2/1b5p/3R1p2/P1R2P2/1P4PP/6K1 w - - 0 35)
-e8e1 (position becomes : 8/1k6/pp3P2/1b5p/3R1p2/P1R2P2/1P4PP/4r1K1 w - - 0 35)
+e8e1 (position becomes: 8/1k6/pp3P2/1b5p/3R1p2/P1R2P2/1P4PP/4r1K1 w - - 0 35)
 e8e3 (position becomes: 8/1k6/pp3P2/1b5p/3R1p2/P1R1rP2/1P4PP/6K1 w - - 0 35)
+
+Input: r3r1k1/pp1R1pbp/6p1/8/5N1P/1P3P2/P1P2P2/1K3B1R b - - 1 21
+Possible next steps:
+a8d8 (position becomes: 3rr1k1/pp1R1pbp/6p1/8/5N1P/1P3P2/P1P2P2/1K3B1R w - - 1 21)
+e8d8 (position becomes: r2r2k1/pp1R1pbp/6p1/8/5N1P/1P3P2/P1P2P2/1K3B1R w - - 1 21)
+e8e1 (position becomes: r5k1/pp1R1pbp/6p1/8/5N1P/1P3P2/P1P2P2/1K2rB1R w - - 1 21)
+a7a5 (position becomes: r3r1k1/1p1R1pbp/6p1/p7/5N1P/1P3P2/P1P2P2/1K3B1R w - a6 1 21)
+
+Input: 4r1k1/4qp1p/p1p3pb/3p4/3P4/2N5/PPQ2PPP/3R2K1 b - - 4 20
+e7e2 (position becomes: 4r1k1/5p1p/p1p3pb/3p4/3P4/2N5/PPQ1qPPP/3R2K1 w - - 4 20)
+e7e1 (position becomes: 4r1k1/5p1p/p1p3pb/3p4/3P4/2N5/PPQ2PPP/3Rq1K1 w - - 4 20)
+e8d8 (position becomes: 3r2k1/4qp1p/p1p3pb/3p4/3P4/2N5/PPQ2PPP/3R2K1 w - - 4 20)
+h6f4 (position becomes: 4r1k1/4qp1p/p1p3p1/3p4/3P1b2/2N5/PPQ2PPP/3R2K1 w - - 4 20)
+
 Input: {input}
 Possible next steps:
 '''
